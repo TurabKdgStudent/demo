@@ -1,14 +1,347 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "data": {
+    "platform": {
+      "id": "1",
+      "name": "Platform van Stad-Antwerpen",
+      "explanationShort": "Dit is het platform van Stad-Antwerpen. Alles wat georganiseerd wordt door stad antwerpen komt samen bij de verschillende projecten die deze stad uitvoert.",
+      "explanationLong": null,
+      "account": null,
+      "projects": [
+        {
+          "id": "1",
+          "title": "Burgerbegroting",
+          "about": "Voor de burgerbegroting wilt antwerpen de burgers keuzes geven over hoe zij de stad en de gegeven belastingen gebruiken om van de stad een mooiere plaats te maken. Dit gebeurt door de burger meer inspraak te geven in de uitbestedingen die anders enkel door een selecte groep mensen werd beslist. Dit komt de leefbaarheid van de stad ten goede doordat meerdere burgers samen kunnen stemmen en dus rechtstreeks inspraak hebben wat er met de burgerbegroting moet gebeuren.",
+          "phases": [
+            {
+              "id": "1",
+              "name": "Beginfase",
+              "about": "Fase 1, de beginfase, focust zich vooral op het informatie vergaren over de huidige stand van zaken en om mogelijke problemen aan te kaarten waar burgers iets aan willen doen",
+              "startDate": "2019-01-01",
+              "endDate": "2019-10-01",
+              "logo": null,
+              "ideations": [
+                {
+                  "id": "1",
+                  "question": "Wat doen we met 1 miljoen?",
+                  "likes": [],
+                  "ideas": [
+                    {
+                      "id": "1",
+                      "title": "Speeltuin Spoor Noord",
+                      "date": "2019-04-30",
+                      "explanationShort": "In park Spoor Noord willen wij een speeltuin toevoegen zodat onze kleine kinderen toch een leuke plek hebben om naartoe te gaan. Dit bevordert niet alleen de 'opgroeiing' van ons kind, maar zorgt er ook voor dat mensen een plaats hebben om elkaar te leren kennen en samen te komen. Hierdoor krijgen wij een leukere buurt met meer interactie tussen de inwoners.",
+                      "explanationLong": null,
+                      "photo": null,
+                      "account": {
+                        "id": "a5083fc0-eeb5-4194-aa11-af74623db004",
+                        "email": "bramvb@hotmail.com",
+                        "userName": "bramvb@hotmail.com"
+                      },
+                      "likes": [],
+                      "maincomments": []
+                    },
+                    {
+                      "id": "2",
+                      "title": "Nieuwe voetpaden op Leopold de Waelplaats.",
+                      "date": "2019-08-21",
+                      "explanationShort": "Wij worden hier godverdomme zot van dat slecht onderhouden voetpad, iedere drie stappen die ik zet, sla ik mn voet om. Ik ken veel oudere mensen die hier niet eens meer durven te komen omdat de weg er zo slecht bij ligt. Doe hier iets aan alstublieft!! like dit idee zodat wij een nieuw voetpad krijgen!!",
+                      "explanationLong": null,
+                      "photo": null,
+                      "account": {
+                        "id": "9b8bc9b3-8089-47fc-862a-65d68fe887d3",
+                        "email": "jeroen@gmail.com",
+                        "userName": "jeroen"
+                      },
+                      "likes": [],
+                      "maincomments": [
+                        {
+                          "text": "Hier ben ik het niet mee eens... Oké, er zijn soms plaatsen waar er een putje in de weg ligt. Maar dit is nog niks vergeleken met de straatligging in andere delen van de stad. Ik zou veel liever hebben dat ze dan iets doen aan die keikoppen waar je als fietser in de winter geweldig hard kunt uitgleiden.",
+                          "date": "2019-04-30",
+                          "likes": [],
+                          "subcomments": [
+                            {
+                              "text": "Oké, daar heb je wel een punt. maar toch, ik fiets niet zo vaak. Daarom heb ik liever dat de voetpaden opgeknapt worden",
+                              "date": "2019-04-30",
+                              "account": {
+                                "id": "a5083fc0-eeb5-4194-aa11-af74623db004",
+                                "userName": "bramvb@hotmail.com",
+                                "email": "bramvb@hotmail.com"
+                              },
+                              "likes": []
+                            },
+                            {
+                              "text": "Dankjewel. Dat is maar wat ik wilde zeggen",
+                              "date": "2019-04-30",
+                              "account": {
+                                "id": "6adf666c-07c3-4121-9a62-b98cbf70a09a",
+                                "userName": "pinecode",
+                                "email": "PineCode5@outlook.com"
+                              },
+                              "likes": []
+                            }
+                          ]
+                        },
+                        {
+                          "text": "En waarom geen nieuwe fontein aan de leopold de Waelplaats? Dit zou zeer mooi staan. Die lege vijver die daar nu al een paar jaar voor het nieuwe museum ligt is niks waard.",
+                          "date": "2019-04-30",
+                          "likes": [],
+                          "subcomments": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3",
+                      "title": "Projecten voor de jeugd",
+                      "date": "2019-07-13",
+                      "explanationShort": "'Ruimte' voor een creatief laboratorium in het depot op Park Spoor-Noord waarin volwassenen en kinderen kunnen experimenteren, maken en dromen.",
+                      "explanationLong": "We willen graag een grote ruimte of werkplek waar kunstenaars en Antwerpenaars elkaar kunnen ontmoeten. We dromen van een ontmoetingsplek waar verbeelding geprikkeld wordt en waar jong en oud de handen vuil kunnen maken. We zoeken een plek waar we deze activiteiten kunnen laten doorgaan,  waar we ook onze projecten kunnen voorbereiden en de benodigde materialen veilig kunnen opbergen.",
+                      "photo": null,
+                      "account": {
+                        "id": "9b8bc9b3-8089-47fc-862a-65d68fe887d3",
+                        "email": "jeroen@gmail.com",
+                        "userName": "jeroen"
+                      },
+                      "likes": [],
+                      "maincomments": []
+                    },
+                    {
+                      "id": "4",
+                      "title": "coolIdeeIdeaVoorIdeation1",
+                      "date": "2019-04-30",
+                      "explanationShort": "dit is de korte uitleg",
+                      "explanationLong": "dit is de iets langere uitleg",
+                      "photo": "cef21411-c526-4f03-889b-0ad76dbfe142.jpg",
+                      "account": {
+                        "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                        "email": "superadmin@gmail.com",
+                        "userName": "superadmin@gmail.com"
+                      },
+                      "likes": [
+                        {
+                          "id": "1"
+                        }
+                      ],
+                      "maincomments": [
+                        {
+                          "text": "commng\n",
+                          "date": "2019-04-30",
+                          "likes": [],
+                          "subcomments": [
+                            {
+                              "text": "subcmoementntejj\n\nOmdat turab dit zo leuk vindt?",
+                              "date": "2019-04-30",
+                              "account": {
+                                "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                                "userName": "superadmin@gmail.com",
+                                "email": "superadmin@gmail.com"
+                              },
+                              "likes": []
+                            }
+                          ]
+                        },
+                        {
+                          "text": "yeaaah\n",
+                          "date": "2019-04-30",
+                          "likes": [],
+                          "subcomments": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "question": "tweede ideation",
+                  "likes": [],
+                  "ideas": []
+                }
+              ],
+              "surveys": [
+                {
+                  "id": "1",
+                  "account": {
+                    "userName": null,
+                    "email": "stef@hotmail.com",
+                    "id": "8d26ec85-2461-4daf-8f6e-e11f42295541"
+                  },
+                  "title": "Eerste Vragenlijst over Het park",
+                  "about": null,
+                  "questions": [
+                    {
+                      "id": "1",
+                      "text": "Wat vind je van het nieuwe speelplein?",
+                      "choices": [],
+                      "answers": [
+                        {
+                          "id": 2,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": "fijn",
+                          "choice": null
+                        }
+                      ]
+                    },
+                    {
+                      "id": "2",
+                      "text": "Wat vind je van de werking van het stadsbestuur?",
+                      "choices": [
+                        {
+                          "id": 1,
+                          "text": "Slecht"
+                        },
+                        {
+                          "id": 99,
+                          "text": "Goed"
+                        }
+                      ],
+                      "answers": [
+                        {
+                          "id": 3,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": null,
+                          "choice": {
+                            "id": 1,
+                            "text": "Slecht"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "3",
+                      "text": "Wat is je mailadres?",
+                      "choices": [],
+                      "answers": [
+                        {
+                          "id": 4,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": "jeroen",
+                          "choice": null
+                        }
+                      ]
+                    },
+                    {
+                      "id": "4",
+                      "text": "Welke aanpassingen moeten er gedaan worden aan het Falconplein?",
+                      "choices": [
+                        {
+                          "id": 2,
+                          "text": "Bloemetjes plaatsen"
+                        },
+                        {
+                          "id": 3,
+                          "text": "Een standbeeld plaatsen"
+                        },
+                        {
+                          "id": 4,
+                          "text": "Een fontein plaatsen"
+                        }
+                      ],
+                      "answers": [
+                        {
+                          "id": 5,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": null,
+                          "choice": {
+                            "id": 2,
+                            "text": "Bloemetjes plaatsen"
+                          }
+                        },
+                        {
+                          "id": 6,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": null,
+                          "choice": {
+                            "id": 3,
+                            "text": "Een standbeeld plaatsen"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "5",
+                      "text": "Waar moet het budget van jeugdwerking aan besteed worden?",
+                      "choices": [
+                        {
+                          "id": 5,
+                          "text": "bis"
+                        },
+                        {
+                          "id": 6,
+                          "text": "bis1"
+                        },
+                        {
+                          "id": 7,
+                          "text": "bis3"
+                        }
+                      ],
+                      "answers": [
+                        {
+                          "id": 7,
+                          "account": {
+                            "userName": "superadmin@gmail.com",
+                            "id": "80e0054b-db06-4c72-8172-b977b941b2c4",
+                            "email": "superadmin@gmail.com"
+                          },
+                          "text": null,
+                          "choice": {
+                            "id": 7,
+                            "text": "bis3"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "2",
+              "name": "Kiesfase",
+              "about": "Fase 2, de kiesfase, focust zich vooral op het kiezen tussen projecten die gestart zullen worden. Hiervoor wordt informatie gebruikt die vergaard is uit de vorige periode.",
+              "startDate": "2019-10-01",
+              "endDate": "2020-01-01",
+              "logo": null,
+              "ideations": [],
+              "surveys": []
+            },
+            {
+              "id": "3",
+              "name": "nieuwePhase",
+              "about": "dit is een korte uitleg over de fase",
+              "startDate": "2019-04-16",
+              "endDate": "2019-04-19",
+              "logo": null,
+              "ideations": [],
+              "surveys": []
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "coolIdee",
+          "about": "dit is een korte uitleg over de fase",
+          "phases": []
+        }
+      ]
+    }
   }
 }
